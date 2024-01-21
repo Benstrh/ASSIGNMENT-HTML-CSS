@@ -1,0 +1,289 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    width: 1440px;
+    height: 900px;
+    
+}
+
+
+
+/* Left-content Style */
+
+
+.left-content {
+    width: 984px;
+    height: 900px;
+    background-image: url(img/photo-1.png);
+    border-radius: 20px;
+}
+
+.left-content p {
+    padding: 30px;
+    padding-top: 835px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.left-content p a {
+    text-decoration: none;
+    color: white;
+}
+
+.left-content p a:hover {
+    color: lightblue;
+}
+
+
+/* Left-content Style */
+
+
+/* Right-content Style */
+
+
+.right-content {
+    width: 456px;
+    height: 900px;
+    background-color: white;
+}
+
+.right-content .content-1 {
+    background-color: white;
+    width: 360px;
+    height: 580.5px;
+    margin-top: auto;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+
+/* Logo Styling */
+
+.right-content .logo {
+      width: auto;
+      height: auto; 
+      margin-top: 50px;
+      display: flex;
+}
+
+.right-content .logo .logotype {
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 18px;
+    color: #23155B;
+    margin-left: 10px;
+    
+}
+
+/* Logo Styling */
+
+/* Sign Form Styling */
+
+
+.right-content .sign-form {
+    margin-top: 24px;
+    padding-top: 20px;
+}
+
+.right-content .content-1 .sign-form .greetings {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    line-height: 28px;
+
+}
+
+.right-content .sign-form .log-pass {
+    font-family: poppins;
+    font-size: 11px;
+    font-weight: 12px;
+    margin-left: 18px;
+}
+
+.sign-form input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #d8d8d8;
+    border-radius: 6px;
+    background-color: rgb(235, 235, 235);
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 14px;
+    padding-left: 16px;
+    padding-top: 1px;
+    
+}
+
+.forgot-pass {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.forgot-pass a {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #007AFF;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+    text-decoration: none;
+}
+
+.button-area {
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.button-area .button-1 {
+    width: 100%;
+    height: 40px;
+    background-color: #8053FF;
+    font-family: roboto;
+    font-size: 15;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.button-area .button-1:hover{
+    background-color: #6d46d6;
+}
+
+.button-style .outline {
+    width: 100%;
+    height: 0.5px;
+    background-color: #E5E5E5;
+    margin-top: 25px;
+}
+
+.button-area2 {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+.button-area2 .button-2 {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    font-size: 15;
+    font-weight: 400;
+    line-height: 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-area2 .button-2 .item-button {
+    display: flex;
+    justify-content: center;
+}
+
+.button-area2 .button-2 .item-button .img-button {
+    height: 20px;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+.button-area2 .button-2:hover {
+    background-color: #1a1717;
+    
+}
+
+.new-account {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.new-account a {
+    text-decoration: none;
+    color: #8053FF;
+
+}
+
+/* Sign Form Styling */
+
+/* Footer Styling */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666
+}
+
+/* Footer Styling */
+
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        display: inline;
+    }
+
+    .sec-1 .left-content {
+        display: none;
+        float: left;
+        width: 0%;
+        margin: auto;
+    }
+
+    
+    .sec-2 .right-content {
+        flex: auto;
+        justify-items: center;       
+        width: fit-content;
+        margin: auto;
+        margin-top: 0%;
+        padding-top: 0px;             
+    }
+
+    .sec-2 .right-content .logo {
+        justify-content: center;
+        position: relative;
+        margin-top: 0px;
+        bottom: -550px;
+        margin-bottom: 0px;
+    }
+    
+    .sec-2 .right-content .sign-form {
+        margin-top: -50px;
+        padding-top: 0px;
+    }
+    
+    .sec-2 .right-content .sign-form .log-pass {
+        display: none;
+    }
+
+    .sec-2 .right-content .sign-form input {
+        margin-top: 20px;
+    }
+}
+
+
+
+
